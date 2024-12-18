@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>
+            flower
+        </title>
+
+        <!----css stylesheet  connectivity -->
+        <link rel="stylesheet" href="web1.css"/>
+        <!----for responsive website----->
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!--add font icon links here-----stackoverflow---->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    </head>
+
+    <body>
+        <div class="outer">
+            <div class="first-img">
+                <!-- navbar codding ---->
+                
+                <nav>
+                    <div class="nav-links" id="navLinks">
+                       <a href="javascript:void(0);"class="icon" onclick="Myfunction()"><i class="fa fa-solid fa-xmark"></i></a>
+                       <!------ <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i> ---->
+                      <ul>
+                        <li><a class="active" href="#">Home</a></li>
+                        <li><a  href="#">Gallery</a></li>
+                        <li><a  href="#">Cetagory</a></li>
+                        <li><a  href="#">About Us</a></li>
+                      </ul>
+                    </div>
+                  <!---- <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>  --->
+                </nav>
+
+                <img src="C:\Users\Rohit\OneDrive\Pictures\Saved Pictures\f2.jpg"/>
+               <div class="img-text">
+                   <b><i><h1>Beautyness</h1></i></b> 
+                   <p><i>"The poetry of earth is never dead"</i></p> 
+                </div>
+               
+            </div>
+            <h3>importance</h3>
+        </div>
+
+   <!------javascript for toggle menu------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                naveLinks.style.right = "0";
+            }
+            function hideMenu(){
+                naveLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

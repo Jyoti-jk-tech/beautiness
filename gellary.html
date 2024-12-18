@@ -1,0 +1,149 @@
+<html>
+    <head>
+         <!----for responsive website----->
+        <meta name="viewport" content="width=device-width, initial-scale=0.1">
+        <title> nature-site </title>
+         <!----css stylesheet  connectivity -->
+         <link rel="stylesheet" href="beauty.css"/>
+          <!--add font icon links here-----stackoverflow---->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    </head>
+    <body>
+
+        <!-------header section------->
+        <section class="sub-header">
+
+          <nav>
+          <!------  <a href="beauty.html"><img src="images\logo1.png"></a>  ------->
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="beauty.html"><i class="fa-solid fa-house"></i> HOME</a></li>
+                    <li><a href="gellary.html"><i class="fa-brands fa-canadian-maple-leaf"></i> GALLERY</a></li>
+                    <li><a href="cetagory.html"><i class="fa-brands fa-envira"></i> CATEGORY</a></li>
+                    <li><a href="about.html"><i class="fa-brands fa-atlassian"></i> ABOUT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+          </nav>
+
+          <h1>Gallery</h1>
+        </section>
+
+        <!----------Gellary----------->
+        <section class="facilities">
+            <h1>Our Gallery</h1>
+            <p>Nature teaches us those lessons that schools fail to teach.</p>
+        </section>
+
+        <!---------Gallery section-------->
+        <section class="gallery" id="gallery">
+        
+            <div class="box-container">
+        
+                <div class="box">
+                    <img src="images/g1.jpg" alt="">
+                    <div class="content">
+                        <h3>Beautyful flower's</h3>
+                        <p>....</p>
+                        <a href="#" class="hero-btn">click here to view more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/g2.jpg" alt="">
+                    <div class="content">
+                        <h3>Beautyful flower's</h3>
+                        <p>....</p>
+                        <a href="#" class="hero-btn">click here to view more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/g3.jpg" alt="">
+                    <div class="content">
+                        <h3>Beautyful flower's</h3>
+                        <p>....</p>
+                        <a href="#" class="hero-btn">click here to view more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/g4.jpg" alt="">
+                    <div class="content">
+                        <h3>Beautyful flower's</h3>
+                        <p>....</p>
+                        <a href="#" class="hero-btn">click here to view more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/g5.jpg" alt="">
+                    <div class="content">
+                        <h3>Beautyful flower's</h3>
+                        <p>....</p>
+                        <a href="#" class="hero-btn">click here to view more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/g6.jpg" alt="">
+                    <div class="content">
+                        <h3>Beautyful flower's</h3>
+                        <p>....</p>
+                        <a href="#" class="hero-btn">click here to view more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/g7.jpg" alt="">
+                    <div class="content">
+                        <h3>Beautyful flower's</h3>
+                        <p>....</p>
+                        <a href="#" class="hero-btn">click here to view more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/g8.jpg" alt="">
+                    <div class="content">
+                        <h3>Beautyful flower's</h3>
+                        <p>....</p>
+                        <a href="#" class="hero-btn">click here to view more</a>
+                    </div>
+                </div>
+        
+            </div>
+        
+        </section>
+
+       <!-------end of gallery section------>
+      
+
+       <!------Footer------>
+       <section class="footer">
+            <h4>About Us</h4>
+            <p>There is a pleasure in the pathless woods, There is a rapture on the lonely shore,
+                There is society,where none intrudes, <br>By the deep sea, and music in it's roar:
+                I love not man the less, but Nature more...</p>
+                <div class="icons">
+                    <i class="fa fa-brands fa-facebook-square"></i>
+                    <i class="fa fa-brands fa-whatsapp-square"></i>
+                    <i class="fa fa-brands fa-twitter-square"></i>
+                    <i class="fa fa-brands fa-instagram-square"></i>
+                    <i class="fa fa-brands fa-linkedin"></i>
+                </div>
+                <p>Made with <i class="fa fa-solid fa-heart"></i> by Jyoti kumari(jk).</p>
+       </section>
+
+        <!-------script code for toggle manu----s-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+    </body>
+</html>

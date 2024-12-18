@@ -1,0 +1,88 @@
+<html>
+    <head>
+         <!----for responsive website----->
+        <meta name="viewport" content="width=device-width, initial-scale=0.1">
+        <title> nature-site </title>
+         <!----css stylesheet  connectivity -->
+         <link rel="stylesheet" href="beauty.css"/>
+          <!--add font icon links here-----stackoverflow---->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    </head>
+    <body>
+
+        <!-------header section------->
+        <section class="sub-header">
+
+          <nav>
+          <!------  <a href="beauty.html"><img src="images\logo1.png"></a>  ------->
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="beauty.html"><i class="fa-solid fa-house"></i> HOME</a></li>
+                    <li><a href="gellary.html"><i class="fa-brands fa-canadian-maple-leaf"></i> GALLERY</a></li>
+                    <li><a href="cetagory.html"><i class="fa-brands fa-envira"></i> CATEGORY</a></li>
+                    <li><a href="about.html"><i class="fa-brands fa-atlassian"></i> ABOUT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+          </nav>
+
+          <h1>About Us</h1>
+        </section>
+
+        <!-----About us content------>
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>Natural Beautyness</h1>
+                    <p>Every now and again we must take a good look at something not made of human hand...<br>
+                        A mountain, a tree, a star, or just the turn of a stream..<br>
+                        There will come to you a great wisdom, patience, and solace..<br>
+                        And above all else, the assurance that you are not alone in the world.<br>
+                        find relief where the pines flourish, and the joy still screams.... 
+                     </p>
+                     <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/f9.jpg">
+                </div>
+            </div>
+        </section>
+
+       
+      
+
+       <!------Footer------>
+       <section class="footer">
+            <h4>About Us</h4>
+            <p>There is a pleasure in the pathless woods, There is a rapture on the lonely shore,
+                There is society,where none intrudes, <br>By the deep sea, and music in it's roar:
+                I love not man the less, but Nature more...</p>
+                <div class="icons">
+                    <i class="fa fa-brands fa-facebook-square"></i>
+                    <i class="fa fa-brands fa-whatsapp-square"></i>
+                    <i class="fa fa-brands fa-twitter-square"></i>
+                    <i class="fa fa-brands fa-instagram-square"></i>
+                    <i class="fa fa-brands fa-linkedin"></i>
+                </div>
+                <p>Made with <i class="fa fa-solid fa-heart"></i> by Jyoti kumari(jk).</p>
+       </section>
+
+        <!-------script code for toggle manu----s-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+    </body>
+</html>
